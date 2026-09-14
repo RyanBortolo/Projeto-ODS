@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Fundo azul do topo",
+      "imageUrl": "https://picsum.photos/seed/vnq-hero-blue/1200/800",
+      "imageHint": "volleyball gymnasium blue"
+    },
+    {
+      "id": "project-logo",
+      "description": "Logo Vôlei na Quebrada",
+      "imageUrl": "https://picsum.photos/seed/vnq-logo/200/200",
+      "imageHint": "volleyball logo pink"
+    },
+    {
+      "id": "nosso-impacto",
+      "description": "Foto das atletas no ginásio (TROQUE O LINK ABAIXO)",
+      "imageUrl": "https://picsum.photos/seed/impacto-team/800/800",
+      "imageHint": "volleyball team girls"
+    }
+  ]
+}

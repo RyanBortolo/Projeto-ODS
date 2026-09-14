@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 221 40% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 221 40% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 221 40% 10%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 330 100% 96%;
+    --secondary-foreground: 330 80% 30%;
+    --muted: 330 20% 98%;
+    --muted-foreground: 330 15% 45%;
+    --accent: 330 100% 91%;
+    --accent-foreground: 330 80% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 330 30% 90%;
+    --input: 330 20% 94%;
+    --ring: 217 91% 60%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 221 40% 5%;
+    --foreground: 221 10% 98%;
+    --card: 221 40% 5%;
+    --card-foreground: 221 10% 98%;
+    --popover: 221 40% 5%;
+    --popover-foreground: 221 10% 98%;
+    --primary: 217 91% 70%;
+    --primary-foreground: 221 40% 5%;
+    --secondary: 330 30% 15%;
+    --secondary-foreground: 330 10% 98%;
+    --muted: 330 30% 15%;
+    --muted-foreground: 330 10% 65%;
+    --accent: 330 80% 70%;
+    --accent-foreground: 221 40% 5%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 221 10% 98%;
+    --border: 221 30% 15%;
+    --input: 221 30% 15%;
+    --ring: 217 91% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline uppercase tracking-tighter;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
